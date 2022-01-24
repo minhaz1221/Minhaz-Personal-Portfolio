@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.section-heading {
+    color: black;
+    font-size: 34px;
+    font-weight: 500;
+    padding: 23px 0px;
+}
+.btn {
+    background: #e84118;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 23px;
+    font-size: 13px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+div#benner-section {
+    overflow: hidden;
+}
+.benner-section .content-benner {
+    background: linear-gradient(180deg, #192a56, #273c75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 500px;
+    position: relative;
+}
+.Profile_picture img {
+    width: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    right: 8%;
+}
+.container-benner {
+    align-self: end;
+    text-align: center;
+    color: white;
+}
+.container-benner h1 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3em;
+    position: absolute;
+    bottom: 21%;
+    left: 13%;
+}
+.container-benner h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.3;
+    position: absolute;
+    bottom: 10%;
+    left: 11%;
+}
+/* Header Section */
+.header-section {
+    background: #253971;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    z-index: 1;
+}
+.header-section ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+    text-align: center;
+}
+.header-section ul li img {
+    width: 100%;
+}
+.header-section ul li:first-child {
+    padding-top: 0;
+}
+.header-section ul li {
+    width: 38px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.cross-background {
+    background: #d80;
+}
+.nav-info-section {
+    position: absolute;
+    right: 38px;
+    height: 100vh;
+    top: 0;
+    width: 300px;
+    background: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+.nav-menu-section {
+    position: absolute;
+    right: 38px;
+    height: 100vh;
+    top: 0;
+    width: 300px;
+    background: rgba(149, 175, 192,0.9);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+.blur {
+    min-width: 1500px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.nav-menu-section ul {
+    list-style: none;
+    padding: 24px 52px;
+}
+.nav-menu-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.nav-menu-section ul li {
+    width: 100%;
+    transition: 0.4s;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.nav-menu-section ul li:hover {
+    background: #666;
+}
+.header-section content {
+    position: relative;
+}
+.header-section content .nav-info-section {
+    position: absolute;
+}
+.header-section ul li p {
+    margin-top: 9px;
+    text-align: start;
+    font-size: 15px;
+}
+.nav-info-section .my-nav-info {
+    padding: 30px 25px;
+    text-align: start;
+}
+.download-btn {
+    text-align: center;
+    margin-top: 13px;
+}
+.download-btn a {
+    color: white;
+    text-decoration: none;
+}
+.nav-info-section .my-nav-info button {
+    background: chocolate;
+    padding: 8px 31px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+.my-nav-info .social-icon i {
+    font-size: 14px;
+}
+.my-nav-info .social-icon i:first-child {
+    padding-left: 0;
+}
+.adress div {
+    display: flex;
+    margin: 10px 0px;
+}
+.adress div i {
+    align-self: center;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.adress {
+    margin-top: 30px;
+}
+.header-section .adress div p {
+    margin: 0;
+    font-size: 13px;
+}
+/* About Me Section */
+
+.about-me {
+    background: #2c3e50;
+    padding-bottom: 50px;
+}
+.about-me .section-heading {
+    color: white;
+    text-align: center;
+}
+.about-me .content {
+    width: 800px;
+    display: inline-flex;
+    background: white;
+}
+.about-me .content-wrapper {
+    text-align: center;
+}
+.about-me-img {
+    width: 50%;
+}
+.about-me-img img {
+    width: 100%;
+    height: auto;
+}
+.about-me .info {
+    padding: 3%;
+    width: 50%;
+}
+.about-me .info p {
+    font-size: 14px;
+}
+.about-me .info {
+    text-align: start;
+}
+.about-me .info h2 {
+    font-size: 19px;
+    font-weight: 700;
+}
+.about-me .info ul li {
+    font-size: 14px;
+    line-height: 22px;
+}
+.info ul {
+    list-style: none;
+}
+.info ul li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block;
+    margin-left: -1em;
+    width: 1em;
+    font-weight: bold;
+    font-size: 21px;
+}
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.btn-section .btn a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 25px;
+}
+.btn-section .btn {
+    padding: 6px 6px;
+}
+.btn-section button:first-child {
+    background: #2f3640;
+    transition: .4s;
+}
+.btn-section button:first-child:hover {
+    background: #e84118;
+}
+.btn-section button:last-child {
+    margin-right: 43px;
+    transition: .4s;
+}
+.btn-section button:last-child:hover {
+    background: #2f3640;
+    color: white;
+}
+
+/* Work Idea Section */
+.work-idea {
+    background: url(../img/background.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.work-idea .color-overlay {
+    width: 100%;
+    background: linear-gradient(18deg, black, transparent);
+    height: 100%;
+    position: absolute;
+}
+.work-idea .section-heading {
+    color: white;
+    margin-bottom: 60px;
+}
+.work-idea .content .innr-sec div {
+    background-color: rgba(255,255,255,0.23);
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 6px 15px 0px rgb(0 0 0 / 10%);
+    color: white;
+    font-size: 14px;
+    display: inline-flex;
+    margin-right: 60px;
+    width: 225px;
+    margin-bottom: 28px;
+    border-radius: 15px;
+}
+.work-idea .content div i {
+    font-size: 40px;
+    margin-right: 18px;
+}
+.work-idea .content div p {
+    line-height: 3;
+    margin-bottom: 0;
+}
+
+/* Service Section */
+.service-section .icon-box {
+    text-align: center;
+    padding: 31px
+}
+.service-section .icon-box i {
+    font-size: 50px;
+    color: #3d8ef7;
+}
+.service-section .icon-box h1 {
+    margin: 48px 0;
+    font-size: 29px;
+}
+.service-section .icon-box:nth-child(even) {
+    background: #F7F9FB;
+    border-radius: 15px;
+}
+
+/* skill-section */
+.skill-section .innr-heading {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 33px;
+}
+.skill-section .left-part li {
+    list-style: none;
+    margin-bottom: 9px;
+    position: relative;
+}
+.skill-section .left-part li::before {
+    content: '';
+    position: absolute;
+    width: 70%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(170, 172, 136);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-1::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-2::after {
+    content: '';
+    position: absolute;
+    width: 55%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-3::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-4::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-5::after {
+    content: '';
+    position: absolute;
+    width: 59%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+.skill-section .left-part li.i-6::after {
+    content: '';
+    position: absolute;
+    width: 52%;
+    top: 14%;
+    left: 19%;
+    height: 12px;
+    background-color: rgb(78, 250, 144);
+    border-radius: 10px;
+}
+
+/* Skill Section right part */
+.percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.percent svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.percent .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.percent {
+    position: relative;
+}
+.percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #AAAC88;
+}
+
+.percent svg circle.c-1 {
+    stroke-dashoffset: calc(440 + (440 / 82) * 100);
+    stroke: #4EFA90;
+}
+.percent svg circle.c-2 {
+    stroke-dashoffset: calc(440 + (440 / 73) * 100);
+    stroke: #4EFA90;
+}
+.percent svg circle.c-3 {
+    stroke-dashoffset: calc(440 + (440 / 64) * 100);
+    stroke: #4EFA90;
+}
+.percent svg circle.c-4 {
+    stroke-dashoffset: calc(440 + (440 / 67) * 100);
+    stroke: #4EFA90;
+}
+.right-part .progress-heading {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 11px;
+}
+.percent-box {
+    text-align: center;
+}
+
+/* Education Section */
+ul.edu-list {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 10px 0 10px 30px;
+    border-left: 2px dotted rgba(0, 0, 0, 0.1);
+}
+ul.edu-list .info-box {
+    margin-bottom: 50px;
+}
+.education-section .edu-list .info-box h2{
+    position: relative;
+    font-size: 24px;
+}
+.education-section .edu-list .info-box span {
+    font-size: 14px;
+    font-style: italic;
+}
+.education-section .edu-list .info-box p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.education-section .edu-list .info-box h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(248, 30, 80);
+    left: -36px;
+    top: 8px;
+    border-radius: 50px;
+}
+
+/* Portfolio Section */
+.portfolio .img {
+    width: 100%;
+    height: 213px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+.portfolio .img-content {
+    box-shadow: 0px 2px 18px rgb(0 0 0 / 45%);
+    padding: 0;
+    padding-bottom: 25px;
+}
+.portfolio .img-box {
+    padding: 0px 26px;
+    margin-bottom: 50px;
+}
+.portfolio .img-box img {
+    width: 100%;
+    transition: .4s;
+}
+.portfolio .img-box img:hover {
+    width: 110%;
+}
+.portfolio .img-box .info-box {
+    padding: 21px 38px;
+}
+.portfolio .img-box .info-box h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.portfolio .img-box .info-box span {
+    font-size: 13px;
+}
+.portfolio .img-box .info-box p {
+    margin-top: 16px;
+}
+.portfolio .img-box .info-box h4 {
+    font-size: 16px;
+    color: blue;
+    font-style: italic;
+}
+.portfolio-btn .btn a {
+    padding: 8px 45px;
+}
+.portfolio-btn {
+    text-align: center;
+}
+/* Testimonial Part */
+.carosul-box-wrapper {
+    padding: 38px 10px;
+}
+.carosul-box {
+    min-height: 300px;
+    box-shadow: 0px 0px 21px rgb(0 0 0 / 12%);
+    position: relative;
+    margin-left: 40px;
+    padding: 23px 20px 23px 50px;
+}
+.carosul-img {
+    position: absolute;
+    width: 76px;
+    top: 32px;
+    left: -44px;
+}
+.carosul-img img {
+    width: -webkit-fill-available;
+    border-radius: 5px;
+}
+.carosul-info h4 {
+    font-weight: 800;
+}
+.carosul-info span {
+    font-size: 13px;
+}
+.carosul-info p {
+    font-size: 17px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 300;
+}
+.slick-dots li button:before{
+    font-size: 40px;
+}
+/* Contact Me Section */
+.contact-section .content {
+    background-image: url(../img/contact-form.jpg);
+    margin: 14px 150px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+}
+.form-left h1 {
+    text-align: center;
+    margin-top: 44px;
+    font-weight: 700;
+    font-size: 43px;
+}
+form label {
+    margin-bottom: 8px;
+}
+form input, textarea {
+    outline: none;
+    border: 0.1px solid black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+form label:last-child {
+    margin-bottom: 0;
+    width: 50%;
+    background: rgba(52, 73, 94,1.0);
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
+.submit {
+    text-align: end;
+}
+input#submit {
+    display: none;
+}
+/* My Info Section */
+.my-info .content {
+    text-align: center;
+    margin-top: 110px;
+}
+.my-info .content img {
+    border-radius: 50%;
+    width: 19%;
+    margin-bottom: 30px;
+}
+.my-info .content h3 {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.my-info .content p {
+    margin: 34px 0;
+}
+.social-icon i {
+    padding: 0 10px;
+    color: #666;
+}
+/* Footer Section */
+hr:not([size]) {
+    margin-top: 48px;
+}
+.footer .content p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Whatsapp */
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    transition: .4s;
+}
+a.whatsapp_float:hover {
+    box-shadow: 2px 2px 15px #fff;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+
+/* Responsive Part */
+
+
+@media screen and (max-width: 992px){
+    .section-heading {
+        font-size: 30px;
+    }
+    .about-me .content {
+        width: 650px;
+    }
+    .btn {
+        padding: 5px 22px;
+        font-size: 12px;
+    }
+    .container-benner h3{
+        bottom: 18%;
+    }
+    .container-benner h1 {
+        font-size: 50px;
+        bottom: 27%;
+    }
+    .about-me .info p {
+        font-size: 12px;
+        margin-bottom: 0.4rem;
+    }
+    .about-me .info h2 {
+        font-size: 18px;
+    }
+    .about-me .info ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .btn-section {
+        margin-top: 11px;
+    }
+    .skill-section .left-part li {
+        margin-bottom: 19px;
+        font-size: 13px;
+    }
+    ul.highlight-section {
+        margin-bottom: .4rem;
+    }
+    .about-me .info {
+        padding-bottom: 1%;
+    }
+    .service-section .icon-box {
+        padding: 18px;
+    }
+    .service-section .icon-box i {
+        font-size: 42px;
+    }
+    .service-section .icon-box h1 {
+        font-size: 22px;
+    }
+    .skill-section .innr-heading {
+        font-size: 20px;
+    }
+    .skill-section .left-part li::before {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-1::after {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-2::after {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-3::after {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-4::after {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-5::after {
+        left: 30%;
+        height: 9px;
+    }
+    .skill-section .left-part li.i-6::after {
+        left: 30%;
+        height: 9px;
+    }
+    svg circle {
+        r: 60;
+    }
+    .percent svg circle {
+        stroke-width: 7px;
+    }
+    .percent .number h1 {
+        font-size: 27px;
+    }
+    .right-part .progress-heading {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    .education-section .edu-list .info-box h2 {
+        font-size: 22px;
+    }
+    .education-section .edu-list .info-box span {
+        font-size: 13px;
+    }
+    .education-section .edu-list .info-box p {
+        font-size: 16px;
+    }
+    .portfolio .img-box {
+        padding: 0px 20px;
+    }
+    .portfolio .img-box .info-box {
+        padding: 14px 28px;
+    }
+    .portfolio .img-box .info-box h3 {
+        font-size: 19px;
+    }
+    .portfolio .img-box .info-box span {
+        font-size: 11px;
+    }
+    .portfolio .img-box .info-box p {
+        margin-top: 12px;
+        font-size: 13px;
+    }
+    .portfolio .img-box .info-box h4 {
+        font-size: 13px;
+    }
+    .portfolio .img-box .btn {
+        padding: 6px 42px;
+    }
+    .portfolio .img-box .btn {
+        padding: 6px 42px;
+    }
+    .carosul-info h4 {
+        font-size: 17px;
+    }
+    .carosul-info span {
+        font-size: 10px;
+    }
+    .carosul-info p {
+        font-size: 12px;
+    }
+    .contact-section .content {
+        margin: 14px 40px;
+    }
+    .form-left h1 {
+        font-size: 37px;
+    }
+    .form-left h1 {
+        font-size: 37px;
+    }
+    form input, textarea {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    /* Whats app */
+    .whatsapp-icon {
+        margin-top:10px;
+        }
+       .whatsapp_float {
+           width: 40px;
+           height: 40px;
+           bottom: 20px;
+           right: 10px;
+           font-size: 22px;
+       }
+    .about-me .content {
+        width: 400px !important;
+        display: inline-block;
+    }
+    .about-me-img {
+        width: 100%;
+    }
+    .about-me .info {
+        width: 100%;
+        padding: 6%;
+        padding-bottom: 5% !important;
+    }
+    .btn-section button:last-child {
+        margin-right: 0px;
+    }
+    
+    .work-idea .content div i {
+        font-size: 34px;
+    }
+    .work-idea {
+        min-height: 500px;
+    }
+    .work-idea .content .innr-sec div {
+        padding: 10px 20px 6px 26px;
+        font-size: 14px;
+        width: 164px;
+        margin-bottom: 28px;
+    }
+    .education-section .edu-list .info-box h2 {
+        font-size: 20px !important;
+    }
+    .education-section .edu-list .info-box span {
+        font-size: 10px !important;
+    }
+    .education-section .edu-list .info-box p {
+        font-size: 14px !important;
+    }
+    .service-section .icon-box {
+        margin-bottom: 18px;
+    }
+    .portfolio .img-box .btn {
+        padding: 6px 17px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .about-me .content {
+        width: 320px !important;
+    }
+    
+    /* Header section */
+    .header-section {
+        position: unset;
+        height: 40px;
+    }
+    .header-section .content > ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-info-section {
+        z-index: 1;
+        height: 100vh;
+        top: 39px;
+        left: 0;
+        width: 300px;
+    }
+    .blur {
+        height: 10000px;
+        min-width: 500px;
+        top: 0;
+        left: 0px;
+    }
+    .nav-info-section .my-nav-info {
+        background: white;
+    }
+    .nav-menu-section {
+        z-index: 1;
+        right: 0px;
+        height: auto;
+        top: 40px;
+    }
+    .nav-menu-section .blur {
+        left: -100%;
+    }
+    .nav-menu-section ul li {
+        padding: 13px 20px;
+    }
+    .Profile_picture img {
+        width: 32%;
+        right: 33%;
+    }
+    .container-benner h1 {
+        font-size: 47px;
+        bottom: 23%;
+        right: 52px;
+    }
+    .container-benner h3 {
+        bottom: 14%;
+        right: 38px;
+    }
+    .work-idea .content div i {
+        font-size: 34px;
+    }
+    .work-idea {
+        min-height: 500px;
+    }
+    .work-idea .content .innr-sec div {
+        padding: 7px 20px 7px 25px;
+        font-size: 14px;
+        width: 164px;
+        margin-bottom: 28px;
+    }
+    .work-idea .content .innr-sec div:first-child {
+        margin-right: 5px;
+    }
+    .work-idea .content .innr-sec div:last-child {
+        margin-right: 0;
+    }
+    .skill-section .left-part li::before {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-1::after {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-2::after {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-3::after {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-4::after {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-5::after {
+        left: 23% !important;
+    }
+    .skill-section .left-part li.i-6::after {
+        left: 23% !important;
+    }
+    .service-section .icon-box {
+        margin-bottom: 0;
+    }
+    .contact-section .content {
+        margin: 12px 15px;
+    }
+}
